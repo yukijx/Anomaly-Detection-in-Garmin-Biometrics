@@ -11,7 +11,9 @@
 
 #### Install dependencies 
 `pip install garminconnect curl_cffi`
+
 `pip install pandas`
+
 `pip install scikit-learn`
 
 #### Fetch Garmin data via Garmin API 
