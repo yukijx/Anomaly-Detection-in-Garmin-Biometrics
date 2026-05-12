@@ -1,0 +1,27 @@
+{
+  "dataset_key": "A",
+  "dataset_name": "Cardiovascular",
+  "feature_cols": [
+    "hrv_ms",
+    "spo2_avg",
+    "respiration_avg",
+    "avg_activity_hr",
+    "total_cals"
+  ],
+  "ocsvm_params": {
+    "nu": 0.05,
+    "kernel": "rbf",
+    "gamma": "scale"
+  },
+  "trained_on_days": 50,
+  "train_date_range": [
+    "2026-03-10",
+    "2026-05-09"
+  ],
+  "train_date": "2026-05-12",
+  "impersonator_dates": [
+    "2026-05-07",
+    "2026-05-05",
+    "2026-05-06"
+  ]
+}

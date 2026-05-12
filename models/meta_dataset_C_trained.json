@@ -1,0 +1,30 @@
+{
+  "dataset_key": "C",
+  "dataset_name": "Sleep",
+  "feature_cols": [
+    "hrv_ms",
+    "spo2_avg",
+    "respiration_avg",
+    "sleep_hours",
+    "deep_pct",
+    "rem_pct",
+    "light_pct",
+    "awake_pct"
+  ],
+  "ocsvm_params": {
+    "nu": 0.05,
+    "kernel": "rbf",
+    "gamma": "scale"
+  },
+  "trained_on_days": 50,
+  "train_date_range": [
+    "2026-03-11",
+    "2026-05-08"
+  ],
+  "train_date": "2026-05-12",
+  "impersonator_dates": [
+    "2026-05-07",
+    "2026-05-05",
+    "2026-05-06"
+  ]
+}

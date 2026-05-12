@@ -1,3 +1,24 @@
+"""
+script: fetch-garmin.py 
+
+Desciption: Fetches Garmin biometric data using garminconnect API
+            Data includes activities and wellness metrics: 
+                - sleep 
+                - heart rate variability (hrv) 
+                - resting heart rate (rhr)
+                - stress 
+                - spo2
+                - respiration 
+                - steps
+                - heart rates 
+                - body battery
+            for the last 62 days. 
+            Saves raw data to JSON files in the ./raw_data/ directory.
+
+Note: May cache authentication tokens to ./tokens/ for reuse on subsequent runs? Garmin limits the number of login attempt/IP addresses
+and can't quite figure out how to fix this issue. Will implement this if I have te time. But for now, running this as infrequently 
+as possible should be fine.
+"""
 import os
 import json
 import getpass
@@ -5,11 +26,16 @@ import traceback
 from datetime import date, timedelta
 from garminconnect import Garmin, GarminConnectAuthenticationError
 
-
-DAYS_RECORDED = 43
+DAYS_RECORDED = 65    # giving myself a buffer  
 OUTPUT_DIR = "./raw_data"
+TOKEN_DIR  = "./tokens"  
 
-"""save data to json file in output directory, creating directory if it doesn't exist"""
+
+"""
+SAVE DATA TO JSON FILE 
+
+parameters: name of the file and data (dict or list) to be saved
+"""
 def save(name, data):
     os.makedirs(OUTPUT_DIR, exist_ok=True)
     path = os.path.join(OUTPUT_DIR, f"{name}.json")
@@ -17,82 +43,120 @@ def save(name, data):
         json.dump(data, f, indent=2, default=str)
     print(f"Saved {name}.json ({len(data) if isinstance(data, list) else '1 record'})")
 
-"""generate range of date strings from today --> DAYS_RECORDED"""
-def date_range(DAYS_RECORDED):
+"""
+GENERATE DATE RANGE FOR DAYS RECORDED 
+
+parameters: number of days to generate (DAYS_RECORDED)
+returns: generator yielding date strings in YYYY-MM-DD format
+"""
+def date_range(days):
     end = date.today()
-    start = end - timedelta(days=DAYS_RECORDED)
+    start = end - timedelta(days=days)
     current = start
     while current <= end:
         yield current.isoformat()
         current += timedelta(days=1)
 
-"""fetches daily data, skip empty/error days, returns list of {date, data} dicts"""
+"""
+FETCH DAILY DATA FOR A SPECIFIC METRIC, SKIP EMPTY DAYS
+
+parameters: Garmin API instance, method name to call, label for printing
+returns: list of dicts with date, and data for days that have data
+"""
 def fetch_daily(api, method_name, label):
 
     results = []
     method = getattr(api, method_name)
     dates = list(date_range(DAYS_RECORDED))
-    print(f"Fetching {label} for {len(dates)} days...", end="", flush=True) 
+    print(f"Fetching {label} for {len(dates)} days...", end="", flush=True)
 
-    for i, d in enumerate(dates):
+    # LOOP THRU DAYS, CALL API METHOD FOR EACH DAY, SKIP DAYS WITH NO DATA
+    for idx, date in enumerate(dates):
         try:
-            result = method(d)
+            result = method(date)
             if result:
-                results.append({"date": d, "data": result})
+                results.append({"date": date, "data": result})
         except Exception:
             pass  # skip days with no data
 
-        # progress dot every 30 days
-        if (i + 1) % 30 == 0:
+        # PRINTING PROGRESS PER 30 DAYS 
+        if (idx + 1) % 30 == 0:
             print(".", end="", flush=True)
 
-    print(f"done ({len(results)} days with data)")
+    print(f"Done ({len(results)} days with data)")
     return results
 
 
-""" prompt user for Garmin credentials """
+"""
+LOGIN USING FOR GARMIN CREDENTIALS 
+
+parameters: none 
+returns: authenticated Garmin API instance
+"""
 def login():
     print("\n Garmin Connect Login")
-    
-    email = input("Email: ").strip()
+
+    # os.makedirs(TOKEN_DIR, exist_ok=True)
+
+    email    = input("Email: ").strip()
     password = getpass.getpass("Password: ")
 
+    # NOTE: work on the token caching if I have time?
+    # tokenstore = tells the new garminconnect where to cache OAuth tokens
+    # so I only need to login once; subsequent runs reuse the cached token
     api = Garmin(email=email, password=password)
 
     try:
         api.login()
-        api.garth.dump("~/.garth") # cache session to avoid re-login
+        print(f"\n LOGGED IN: {api.get_full_name()}")
+
     except GarminConnectAuthenticationError:
+        print("\n AUTHENTICATION ERROR. CHECK CREDENTIALS.")
+        raise
 
-        # if MFA required, would error, but I don't need MFA LOL 
-        print("\nUnexpected authentication error.")
-
-    print(f"\nLogged in: {api.get_full_name()}")
     return api
 
 
-""" fetch activities and save all activities to activities to json"""
+"""
+FETCH ACTIVITIES, SAVE ALL TO JSON
+
+paremeters: authenticated Garmin API instance
+"""
 def fetch_activities(api):
+
     print("\n Activities")
     all_activities = []
-    batch_size = 100
+    
+    # NOTE: garminconnect API returns activities in batches (default 20, max 100)??
+    batch_size = 100 
     offset = 0
 
+    # LOOP TO FETCH BATCHES UNTIL NO MORE ACTIVITIES LEFT, APPEND TO ALL_ACTIVITIES
     while True:
         batch = api.get_activities(offset, batch_size)
+        
         if not batch:
             break
+        
         all_activities.extend(batch)
-        print(f"Fetched {len(all_activities)} activities so far...", end="\r")
+
+        print(f"Fetched {len(all_activities)} activities so far.", end="\r") 
+        
+        # if batch < than the batch size, reached the end of the activities
         if len(batch) < batch_size:
             break
         offset += batch_size
 
-    print(f"Total activities fetched: {len(all_activities)}        ")
+    print(f"Total activities fetched: {len(all_activities)}")
     save("activities", all_activities)
 
 
-""" fetch wellness metrics for last DAYS_RECORDED days, save each metric to json"""
+"""
+FETCH WELLNESS METRICS FOR DAYS_RECORDED 
+SAVE EACH METRIC TO A SEPARATE JSON FILE IN OUTPUT_DIR
+
+parameters: authenticated Garmin API instance
+"""
 def fetch_wellness(api):
     print(f"\n Wellness Data (last {DAYS_RECORDED} days)")
 
@@ -112,22 +176,19 @@ def fetch_wellness(api):
             data = fetch_daily(api, method_name, label)
             save(label, data)
         except Exception as e:
-            print(f"\n Could not fetch {label}: {e}")
+            print(f"\n  Could not fetch {label}: {e}")
 
-    # Body battery uses a date range endpoint but has a max window of ~30 days
-    # so chunk the full range into 30-day batches
+    # NOTE: body battery uses a date range endpoint with a ~30-day max window 
     print("Fetching body_battery in 30-day batches...", end="", flush=True)
+    
+    # LOOP TO FETCH BODY BATTERY IN 30-DAY BATCHES, APPEND TO ALL_BB, THEN SAVE TO JSON
     try:
-        all_bb = []
+        all_bb     = []
         chunk_days = 30
-        end = date.today()
-        start = end - timedelta(days=DAYS_RECORDED)
+        end        = date.today()
+        start      = end - timedelta(days=DAYS_RECORDED)
         chunk_start = start
 
-        """ 
-        loop through date range in 30-day chunks, fetch body battery for each chunk, 
-        skip empty/error chunks, and aggregate results
-        """
         while chunk_start < end:
             chunk_end = min(chunk_start + timedelta(days=chunk_days), end)
             try:
@@ -135,18 +196,18 @@ def fetch_wellness(api):
                 if chunk:
                     all_bb.extend(chunk)
             except Exception:
-                pass  # skip chunks with no data
+                pass
             print(".", end="", flush=True)
             chunk_start = chunk_end + timedelta(days=1)
 
         save("body_battery", all_bb)
     except Exception as e:
-        print(f"\n Could not fetch body_battery: {e}")
+        print(f"\n  Could not fetch body_battery: {e}")
 
 
 def main():
     print("=" * 55)
-    print(" Fetching Garmin Data")
+    print("FETCHING GARMIN DATA.")
     print("=" * 55)
 
     try:
@@ -156,12 +217,13 @@ def main():
 
         print("\n" + "=" * 55)
         print("Raw data saved to ./raw_data/")
+        # print("Token cached to ./tokens/ (reused on next run)")
         print("=" * 55 + "\n")
 
     except GarminConnectAuthenticationError as e:
-        print(f"\nAuthentication failed: {e}")
+        print(f"\n Authentication failed: {e}")
     except Exception as e:
-        print(f"\nUnexpected error: {e}")
+        print(f"\n Unexpected error: {e}")
         traceback.print_exc()
 
 

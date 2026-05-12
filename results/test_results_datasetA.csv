@@ -1,0 +1,6 @@
+date,hrv_ms,spo2_avg,respiration_avg,avg_activity_hr,total_cals,anomaly_score,is_anomaly,who
+2026-05-05,41.0,94.0,15.0,,,-0.08825169600042529,1,impersonator_A
+2026-05-06,41.0,92.0,15.0,166.0,394.0,-0.20256849119198125,1,impersonator_both
+2026-05-07,45.0,93.0,12.0,,,-0.33210504059480384,1,impersonator_B
+2026-05-10,51.0,95.0,15.0,,,-0.016349346128968212,1,baseline
+2026-05-11,54.0,94.0,15.0,,,0.008610658635458124,0,baseline

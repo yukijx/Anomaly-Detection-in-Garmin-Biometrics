@@ -1,0 +1,28 @@
+{
+  "dataset_key": "B",
+  "dataset_name": "Stress & Recovery",
+  "feature_cols": [
+    "hrv_ms",
+    "avg_stress",
+    "max_stress",
+    "body_battery_eod",
+    "steps",
+    "sleep_hours"
+  ],
+  "ocsvm_params": {
+    "nu": 0.05,
+    "kernel": "rbf",
+    "gamma": "scale"
+  },
+  "trained_on_days": 50,
+  "train_date_range": [
+    "2026-03-10",
+    "2026-04-30"
+  ],
+  "train_date": "2026-05-12",
+  "impersonator_dates": [
+    "2026-05-07",
+    "2026-05-05",
+    "2026-05-06"
+  ]
+}

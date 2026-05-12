@@ -1,0 +1,1228 @@
+[
+  {
+    "date": "2026-03-07",
+    "data": {
+      "userProfileId": 143851902,
+      "statisticsStartDate": "2026-03-07",
+      "statisticsEndDate": "2026-03-07",
+      "allMetrics": {
+        "metricsMap": {}
+      },
+      "groupedMetrics": null
+    }
+  },
+  {
+    "date": "2026-03-08",
+    "data": {
+      "userProfileId": 143851902,
+      "statisticsStartDate": "2026-03-08",
+      "statisticsEndDate": "2026-03-08",
+      "allMetrics": {
+        "metricsMap": {}
+      },
+      "groupedMetrics": null
+    }
+  },
+  {
+    "date": "2026-03-09",
+    "data": {
+      "userProfileId": 143851902,
+      "statisticsStartDate": "2026-03-09",
+      "statisticsEndDate": "2026-03-09",
+      "allMetrics": {
+        "metricsMap": {}
+      },
+      "groupedMetrics": null
+    }
+  },
+  {
+    "date": "2026-03-10",
+    "data": {
+      "userProfileId": 143851902,
+      "statisticsStartDate": "2026-03-10",
+      "statisticsEndDate": "2026-03-10",
+      "allMetrics": {
+        "metricsMap": {
+          "WELLNESS_RESTING_HEART_RATE": [
+            {
+              "value": 82.0,
+              "calendarDate": "2026-03-10"
+            }
+          ]
+        }
+      },
+      "groupedMetrics": null
+    }
+  },
+  {
+    "date": "2026-03-11",
+    "data": {
+      "userProfileId": 143851902,
+      "statisticsStartDate": "2026-03-11",
+      "statisticsEndDate": "2026-03-11",
+      "allMetrics": {
+        "metricsMap": {
+          "WELLNESS_RESTING_HEART_RATE": [
+            {
+              "value": 73.0,
+              "calendarDate": "2026-03-11"
+            }
+          ]
+        }
+      },
+      "groupedMetrics": null
+    }
+  },
+  {
+    "date": "2026-03-12",
+    "data": {
+      "userProfileId": 143851902,
+      "statisticsStartDate": "2026-03-12",
+      "statisticsEndDate": "2026-03-12",
+      "allMetrics": {
+        "metricsMap": {
+          "WELLNESS_RESTING_HEART_RATE": [
+            {
+              "value": 68.0,
+              "calendarDate": "2026-03-12"
+            }
+          ]
+        }
+      },
+      "groupedMetrics": null
+    }
+  },
+  {
+    "date": "2026-03-13",
+    "data": {
+      "userProfileId": 143851902,
+      "statisticsStartDate": "2026-03-13",
+      "statisticsEndDate": "2026-03-13",
+      "allMetrics": {
+        "metricsMap": {
+          "WELLNESS_RESTING_HEART_RATE": [
+            {
+              "value": 71.0,
+              "calendarDate": "2026-03-13"
+            }
+          ]
+        }
+      },
+      "groupedMetrics": null
+    }
+  },
+  {
+    "date": "2026-03-14",
+    "data": {
+      "userProfileId": 143851902,
+      "statisticsStartDate": "2026-03-14",
+      "statisticsEndDate": "2026-03-14",
+      "allMetrics": {
+        "metricsMap": {
+          "WELLNESS_RESTING_HEART_RATE": [
+            {
+              "value": 70.0,
+              "calendarDate": "2026-03-14"
+            }
+          ]
+        }
+      },
+      "groupedMetrics": null
+    }
+  },
+  {
+    "date": "2026-03-15",
+    "data": {
+      "userProfileId": 143851902,
+      "statisticsStartDate": "2026-03-15",
+      "statisticsEndDate": "2026-03-15",
+      "allMetrics": {
+        "metricsMap": {
+          "WELLNESS_RESTING_HEART_RATE": [
+            {
+              "value": 71.0,
+              "calendarDate": "2026-03-15"
+            }
+          ]
+        }
+      },
+      "groupedMetrics": null
+    }
+  },
+  {
+    "date": "2026-03-16",
+    "data": {
+      "userProfileId": 143851902,
+      "statisticsStartDate": "2026-03-16",
+      "statisticsEndDate": "2026-03-16",
+      "allMetrics": {
+        "metricsMap": {
+          "WELLNESS_RESTING_HEART_RATE": [
+            {
+              "value": 73.0,
+              "calendarDate": "2026-03-16"
+            }
+          ]
+        }
+      },
+      "groupedMetrics": null
+    }
+  },
+  {
+    "date": "2026-03-17",
+    "data": {
+      "userProfileId": 143851902,
+      "statisticsStartDate": "2026-03-17",
+      "statisticsEndDate": "2026-03-17",
+      "allMetrics": {
+        "metricsMap": {
+          "WELLNESS_RESTING_HEART_RATE": [
+            {
+              "value": 75.0,
+              "calendarDate": "2026-03-17"
+            }
+          ]
+        }
+      },
+      "groupedMetrics": null
+    }
+  },
+  {
+    "date": "2026-03-18",
+    "data": {
+      "userProfileId": 143851902,
+      "statisticsStartDate": "2026-03-18",
+      "statisticsEndDate": "2026-03-18",
+      "allMetrics": {
+        "metricsMap": {
+          "WELLNESS_RESTING_HEART_RATE": [
+            {
+              "value": 65.0,
+              "calendarDate": "2026-03-18"
+            }
+          ]
+        }
+      },
+      "groupedMetrics": null
+    }
+  },
+  {
+    "date": "2026-03-19",
+    "data": {
+      "userProfileId": 143851902,
+      "statisticsStartDate": "2026-03-19",
+      "statisticsEndDate": "2026-03-19",
+      "allMetrics": {
+        "metricsMap": {
+          "WELLNESS_RESTING_HEART_RATE": [
+            {
+              "value": 75.0,
+              "calendarDate": "2026-03-19"
+            }
+          ]
+        }
+      },
+      "groupedMetrics": null
+    }
+  },
+  {
+    "date": "2026-03-20",
+    "data": {
+      "userProfileId": 143851902,
+      "statisticsStartDate": "2026-03-20",
+      "statisticsEndDate": "2026-03-20",
+      "allMetrics": {
+        "metricsMap": {
+          "WELLNESS_RESTING_HEART_RATE": [
+            {
+              "value": null,
+              "calendarDate": "2026-03-20"
+            }
+          ]
+        }
+      },
+      "groupedMetrics": null
+    }
+  },
+  {
+    "date": "2026-03-21",
+    "data": {
+      "userProfileId": 143851902,
+      "statisticsStartDate": "2026-03-21",
+      "statisticsEndDate": "2026-03-21",
+      "allMetrics": {
+        "metricsMap": {}
+      },
+      "groupedMetrics": null
+    }
+  },
+  {
+    "date": "2026-03-22",
+    "data": {
+      "userProfileId": 143851902,
+      "statisticsStartDate": "2026-03-22",
+      "statisticsEndDate": "2026-03-22",
+      "allMetrics": {
+        "metricsMap": {
+          "WELLNESS_RESTING_HEART_RATE": [
+            {
+              "value": 76.0,
+              "calendarDate": "2026-03-22"
+            }
+          ]
+        }
+      },
+      "groupedMetrics": null
+    }
+  },
+  {
+    "date": "2026-03-23",
+    "data": {
+      "userProfileId": 143851902,
+      "statisticsStartDate": "2026-03-23",
+      "statisticsEndDate": "2026-03-23",
+      "allMetrics": {
+        "metricsMap": {
+          "WELLNESS_RESTING_HEART_RATE": [
+            {
+              "value": 65.0,
+              "calendarDate": "2026-03-23"
+            }
+          ]
+        }
+      },
+      "groupedMetrics": null
+    }
+  },
+  {
+    "date": "2026-03-24",
+    "data": {
+      "userProfileId": 143851902,
+      "statisticsStartDate": "2026-03-24",
+      "statisticsEndDate": "2026-03-24",
+      "allMetrics": {
+        "metricsMap": {
+          "WELLNESS_RESTING_HEART_RATE": [
+            {
+              "value": 62.0,
+              "calendarDate": "2026-03-24"
+            }
+          ]
+        }
+      },
+      "groupedMetrics": null
+    }
+  },
+  {
+    "date": "2026-03-25",
+    "data": {
+      "userProfileId": 143851902,
+      "statisticsStartDate": "2026-03-25",
+      "statisticsEndDate": "2026-03-25",
+      "allMetrics": {
+        "metricsMap": {
+          "WELLNESS_RESTING_HEART_RATE": [
+            {
+              "value": 64.0,
+              "calendarDate": "2026-03-25"
+            }
+          ]
+        }
+      },
+      "groupedMetrics": null
+    }
+  },
+  {
+    "date": "2026-03-26",
+    "data": {
+      "userProfileId": 143851902,
+      "statisticsStartDate": "2026-03-26",
+      "statisticsEndDate": "2026-03-26",
+      "allMetrics": {
+        "metricsMap": {
+          "WELLNESS_RESTING_HEART_RATE": [
+            {
+              "value": 57.0,
+              "calendarDate": "2026-03-26"
+            }
+          ]
+        }
+      },
+      "groupedMetrics": null
+    }
+  },
+  {
+    "date": "2026-03-27",
+    "data": {
+      "userProfileId": 143851902,
+      "statisticsStartDate": "2026-03-27",
+      "statisticsEndDate": "2026-03-27",
+      "allMetrics": {
+        "metricsMap": {
+          "WELLNESS_RESTING_HEART_RATE": [
+            {
+              "value": 61.0,
+              "calendarDate": "2026-03-27"
+            }
+          ]
+        }
+      },
+      "groupedMetrics": null
+    }
+  },
+  {
+    "date": "2026-03-28",
+    "data": {
+      "userProfileId": 143851902,
+      "statisticsStartDate": "2026-03-28",
+      "statisticsEndDate": "2026-03-28",
+      "allMetrics": {
+        "metricsMap": {
+          "WELLNESS_RESTING_HEART_RATE": [
+            {
+              "value": 53.0,
+              "calendarDate": "2026-03-28"
+            }
+          ]
+        }
+      },
+      "groupedMetrics": null
+    }
+  },
+  {
+    "date": "2026-03-29",
+    "data": {
+      "userProfileId": 143851902,
+      "statisticsStartDate": "2026-03-29",
+      "statisticsEndDate": "2026-03-29",
+      "allMetrics": {
+        "metricsMap": {
+          "WELLNESS_RESTING_HEART_RATE": [
+            {
+              "value": 63.0,
+              "calendarDate": "2026-03-29"
+            }
+          ]
+        }
+      },
+      "groupedMetrics": null
+    }
+  },
+  {
+    "date": "2026-03-30",
+    "data": {
+      "userProfileId": 143851902,
+      "statisticsStartDate": "2026-03-30",
+      "statisticsEndDate": "2026-03-30",
+      "allMetrics": {
+        "metricsMap": {
+          "WELLNESS_RESTING_HEART_RATE": [
+            {
+              "value": 63.0,
+              "calendarDate": "2026-03-30"
+            }
+          ]
+        }
+      },
+      "groupedMetrics": null
+    }
+  },
+  {
+    "date": "2026-03-31",
+    "data": {
+      "userProfileId": 143851902,
+      "statisticsStartDate": "2026-03-31",
+      "statisticsEndDate": "2026-03-31",
+      "allMetrics": {
+        "metricsMap": {
+          "WELLNESS_RESTING_HEART_RATE": [
+            {
+              "value": 62.0,
+              "calendarDate": "2026-03-31"
+            }
+          ]
+        }
+      },
+      "groupedMetrics": null
+    }
+  },
+  {
+    "date": "2026-04-01",
+    "data": {
+      "userProfileId": 143851902,
+      "statisticsStartDate": "2026-04-01",
+      "statisticsEndDate": "2026-04-01",
+      "allMetrics": {
+        "metricsMap": {
+          "WELLNESS_RESTING_HEART_RATE": [
+            {
+              "value": 64.0,
+              "calendarDate": "2026-04-01"
+            }
+          ]
+        }
+      },
+      "groupedMetrics": null
+    }
+  },
+  {
+    "date": "2026-04-02",
+    "data": {
+      "userProfileId": 143851902,
+      "statisticsStartDate": "2026-04-02",
+      "statisticsEndDate": "2026-04-02",
+      "allMetrics": {
+        "metricsMap": {
+          "WELLNESS_RESTING_HEART_RATE": [
+            {
+              "value": 65.0,
+              "calendarDate": "2026-04-02"
+            }
+          ]
+        }
+      },
+      "groupedMetrics": null
+    }
+  },
+  {
+    "date": "2026-04-03",
+    "data": {
+      "userProfileId": 143851902,
+      "statisticsStartDate": "2026-04-03",
+      "statisticsEndDate": "2026-04-03",
+      "allMetrics": {
+        "metricsMap": {
+          "WELLNESS_RESTING_HEART_RATE": [
+            {
+              "value": 64.0,
+              "calendarDate": "2026-04-03"
+            }
+          ]
+        }
+      },
+      "groupedMetrics": null
+    }
+  },
+  {
+    "date": "2026-04-04",
+    "data": {
+      "userProfileId": 143851902,
+      "statisticsStartDate": "2026-04-04",
+      "statisticsEndDate": "2026-04-04",
+      "allMetrics": {
+        "metricsMap": {
+          "WELLNESS_RESTING_HEART_RATE": [
+            {
+              "value": 66.0,
+              "calendarDate": "2026-04-04"
+            }
+          ]
+        }
+      },
+      "groupedMetrics": null
+    }
+  },
+  {
+    "date": "2026-04-05",
+    "data": {
+      "userProfileId": 143851902,
+      "statisticsStartDate": "2026-04-05",
+      "statisticsEndDate": "2026-04-05",
+      "allMetrics": {
+        "metricsMap": {
+          "WELLNESS_RESTING_HEART_RATE": [
+            {
+              "value": 67.0,
+              "calendarDate": "2026-04-05"
+            }
+          ]
+        }
+      },
+      "groupedMetrics": null
+    }
+  },
+  {
+    "date": "2026-04-06",
+    "data": {
+      "userProfileId": 143851902,
+      "statisticsStartDate": "2026-04-06",
+      "statisticsEndDate": "2026-04-06",
+      "allMetrics": {
+        "metricsMap": {
+          "WELLNESS_RESTING_HEART_RATE": [
+            {
+              "value": 65.0,
+              "calendarDate": "2026-04-06"
+            }
+          ]
+        }
+      },
+      "groupedMetrics": null
+    }
+  },
+  {
+    "date": "2026-04-07",
+    "data": {
+      "userProfileId": 143851902,
+      "statisticsStartDate": "2026-04-07",
+      "statisticsEndDate": "2026-04-07",
+      "allMetrics": {
+        "metricsMap": {
+          "WELLNESS_RESTING_HEART_RATE": [
+            {
+              "value": 65.0,
+              "calendarDate": "2026-04-07"
+            }
+          ]
+        }
+      },
+      "groupedMetrics": null
+    }
+  },
+  {
+    "date": "2026-04-08",
+    "data": {
+      "userProfileId": 143851902,
+      "statisticsStartDate": "2026-04-08",
+      "statisticsEndDate": "2026-04-08",
+      "allMetrics": {
+        "metricsMap": {
+          "WELLNESS_RESTING_HEART_RATE": [
+            {
+              "value": 63.0,
+              "calendarDate": "2026-04-08"
+            }
+          ]
+        }
+      },
+      "groupedMetrics": null
+    }
+  },
+  {
+    "date": "2026-04-09",
+    "data": {
+      "userProfileId": 143851902,
+      "statisticsStartDate": "2026-04-09",
+      "statisticsEndDate": "2026-04-09",
+      "allMetrics": {
+        "metricsMap": {
+          "WELLNESS_RESTING_HEART_RATE": [
+            {
+              "value": 68.0,
+              "calendarDate": "2026-04-09"
+            }
+          ]
+        }
+      },
+      "groupedMetrics": null
+    }
+  },
+  {
+    "date": "2026-04-10",
+    "data": {
+      "userProfileId": 143851902,
+      "statisticsStartDate": "2026-04-10",
+      "statisticsEndDate": "2026-04-10",
+      "allMetrics": {
+        "metricsMap": {
+          "WELLNESS_RESTING_HEART_RATE": [
+            {
+              "value": 72.0,
+              "calendarDate": "2026-04-10"
+            }
+          ]
+        }
+      },
+      "groupedMetrics": null
+    }
+  },
+  {
+    "date": "2026-04-11",
+    "data": {
+      "userProfileId": 143851902,
+      "statisticsStartDate": "2026-04-11",
+      "statisticsEndDate": "2026-04-11",
+      "allMetrics": {
+        "metricsMap": {
+          "WELLNESS_RESTING_HEART_RATE": [
+            {
+              "value": 69.0,
+              "calendarDate": "2026-04-11"
+            }
+          ]
+        }
+      },
+      "groupedMetrics": null
+    }
+  },
+  {
+    "date": "2026-04-12",
+    "data": {
+      "userProfileId": 143851902,
+      "statisticsStartDate": "2026-04-12",
+      "statisticsEndDate": "2026-04-12",
+      "allMetrics": {
+        "metricsMap": {
+          "WELLNESS_RESTING_HEART_RATE": [
+            {
+              "value": 71.0,
+              "calendarDate": "2026-04-12"
+            }
+          ]
+        }
+      },
+      "groupedMetrics": null
+    }
+  },
+  {
+    "date": "2026-04-13",
+    "data": {
+      "userProfileId": 143851902,
+      "statisticsStartDate": "2026-04-13",
+      "statisticsEndDate": "2026-04-13",
+      "allMetrics": {
+        "metricsMap": {
+          "WELLNESS_RESTING_HEART_RATE": [
+            {
+              "value": 67.0,
+              "calendarDate": "2026-04-13"
+            }
+          ]
+        }
+      },
+      "groupedMetrics": null
+    }
+  },
+  {
+    "date": "2026-04-14",
+    "data": {
+      "userProfileId": 143851902,
+      "statisticsStartDate": "2026-04-14",
+      "statisticsEndDate": "2026-04-14",
+      "allMetrics": {
+        "metricsMap": {
+          "WELLNESS_RESTING_HEART_RATE": [
+            {
+              "value": 72.0,
+              "calendarDate": "2026-04-14"
+            }
+          ]
+        }
+      },
+      "groupedMetrics": null
+    }
+  },
+  {
+    "date": "2026-04-15",
+    "data": {
+      "userProfileId": 143851902,
+      "statisticsStartDate": "2026-04-15",
+      "statisticsEndDate": "2026-04-15",
+      "allMetrics": {
+        "metricsMap": {
+          "WELLNESS_RESTING_HEART_RATE": [
+            {
+              "value": 72.0,
+              "calendarDate": "2026-04-15"
+            }
+          ]
+        }
+      },
+      "groupedMetrics": null
+    }
+  },
+  {
+    "date": "2026-04-16",
+    "data": {
+      "userProfileId": 143851902,
+      "statisticsStartDate": "2026-04-16",
+      "statisticsEndDate": "2026-04-16",
+      "allMetrics": {
+        "metricsMap": {
+          "WELLNESS_RESTING_HEART_RATE": [
+            {
+              "value": 71.0,
+              "calendarDate": "2026-04-16"
+            }
+          ]
+        }
+      },
+      "groupedMetrics": null
+    }
+  },
+  {
+    "date": "2026-04-17",
+    "data": {
+      "userProfileId": 143851902,
+      "statisticsStartDate": "2026-04-17",
+      "statisticsEndDate": "2026-04-17",
+      "allMetrics": {
+        "metricsMap": {
+          "WELLNESS_RESTING_HEART_RATE": [
+            {
+              "value": 74.0,
+              "calendarDate": "2026-04-17"
+            }
+          ]
+        }
+      },
+      "groupedMetrics": null
+    }
+  },
+  {
+    "date": "2026-04-18",
+    "data": {
+      "userProfileId": 143851902,
+      "statisticsStartDate": "2026-04-18",
+      "statisticsEndDate": "2026-04-18",
+      "allMetrics": {
+        "metricsMap": {
+          "WELLNESS_RESTING_HEART_RATE": [
+            {
+              "value": 75.0,
+              "calendarDate": "2026-04-18"
+            }
+          ]
+        }
+      },
+      "groupedMetrics": null
+    }
+  },
+  {
+    "date": "2026-04-19",
+    "data": {
+      "userProfileId": 143851902,
+      "statisticsStartDate": "2026-04-19",
+      "statisticsEndDate": "2026-04-19",
+      "allMetrics": {
+        "metricsMap": {
+          "WELLNESS_RESTING_HEART_RATE": [
+            {
+              "value": 72.0,
+              "calendarDate": "2026-04-19"
+            }
+          ]
+        }
+      },
+      "groupedMetrics": null
+    }
+  },
+  {
+    "date": "2026-04-20",
+    "data": {
+      "userProfileId": 143851902,
+      "statisticsStartDate": "2026-04-20",
+      "statisticsEndDate": "2026-04-20",
+      "allMetrics": {
+        "metricsMap": {
+          "WELLNESS_RESTING_HEART_RATE": [
+            {
+              "value": 72.0,
+              "calendarDate": "2026-04-20"
+            }
+          ]
+        }
+      },
+      "groupedMetrics": null
+    }
+  },
+  {
+    "date": "2026-04-21",
+    "data": {
+      "userProfileId": 143851902,
+      "statisticsStartDate": "2026-04-21",
+      "statisticsEndDate": "2026-04-21",
+      "allMetrics": {
+        "metricsMap": {
+          "WELLNESS_RESTING_HEART_RATE": [
+            {
+              "value": 76.0,
+              "calendarDate": "2026-04-21"
+            }
+          ]
+        }
+      },
+      "groupedMetrics": null
+    }
+  },
+  {
+    "date": "2026-04-22",
+    "data": {
+      "userProfileId": 143851902,
+      "statisticsStartDate": "2026-04-22",
+      "statisticsEndDate": "2026-04-22",
+      "allMetrics": {
+        "metricsMap": {
+          "WELLNESS_RESTING_HEART_RATE": [
+            {
+              "value": 73.0,
+              "calendarDate": "2026-04-22"
+            }
+          ]
+        }
+      },
+      "groupedMetrics": null
+    }
+  },
+  {
+    "date": "2026-04-23",
+    "data": {
+      "userProfileId": 143851902,
+      "statisticsStartDate": "2026-04-23",
+      "statisticsEndDate": "2026-04-23",
+      "allMetrics": {
+        "metricsMap": {
+          "WELLNESS_RESTING_HEART_RATE": [
+            {
+              "value": 74.0,
+              "calendarDate": "2026-04-23"
+            }
+          ]
+        }
+      },
+      "groupedMetrics": null
+    }
+  },
+  {
+    "date": "2026-04-24",
+    "data": {
+      "userProfileId": 143851902,
+      "statisticsStartDate": "2026-04-24",
+      "statisticsEndDate": "2026-04-24",
+      "allMetrics": {
+        "metricsMap": {
+          "WELLNESS_RESTING_HEART_RATE": [
+            {
+              "value": 73.0,
+              "calendarDate": "2026-04-24"
+            }
+          ]
+        }
+      },
+      "groupedMetrics": null
+    }
+  },
+  {
+    "date": "2026-04-25",
+    "data": {
+      "userProfileId": 143851902,
+      "statisticsStartDate": "2026-04-25",
+      "statisticsEndDate": "2026-04-25",
+      "allMetrics": {
+        "metricsMap": {
+          "WELLNESS_RESTING_HEART_RATE": [
+            {
+              "value": 71.0,
+              "calendarDate": "2026-04-25"
+            }
+          ]
+        }
+      },
+      "groupedMetrics": null
+    }
+  },
+  {
+    "date": "2026-04-26",
+    "data": {
+      "userProfileId": 143851902,
+      "statisticsStartDate": "2026-04-26",
+      "statisticsEndDate": "2026-04-26",
+      "allMetrics": {
+        "metricsMap": {
+          "WELLNESS_RESTING_HEART_RATE": [
+            {
+              "value": 68.0,
+              "calendarDate": "2026-04-26"
+            }
+          ]
+        }
+      },
+      "groupedMetrics": null
+    }
+  },
+  {
+    "date": "2026-04-27",
+    "data": {
+      "userProfileId": 143851902,
+      "statisticsStartDate": "2026-04-27",
+      "statisticsEndDate": "2026-04-27",
+      "allMetrics": {
+        "metricsMap": {
+          "WELLNESS_RESTING_HEART_RATE": [
+            {
+              "value": 70.0,
+              "calendarDate": "2026-04-27"
+            }
+          ]
+        }
+      },
+      "groupedMetrics": null
+    }
+  },
+  {
+    "date": "2026-04-28",
+    "data": {
+      "userProfileId": 143851902,
+      "statisticsStartDate": "2026-04-28",
+      "statisticsEndDate": "2026-04-28",
+      "allMetrics": {
+        "metricsMap": {
+          "WELLNESS_RESTING_HEART_RATE": [
+            {
+              "value": 67.0,
+              "calendarDate": "2026-04-28"
+            }
+          ]
+        }
+      },
+      "groupedMetrics": null
+    }
+  },
+  {
+    "date": "2026-04-29",
+    "data": {
+      "userProfileId": 143851902,
+      "statisticsStartDate": "2026-04-29",
+      "statisticsEndDate": "2026-04-29",
+      "allMetrics": {
+        "metricsMap": {
+          "WELLNESS_RESTING_HEART_RATE": [
+            {
+              "value": 63.0,
+              "calendarDate": "2026-04-29"
+            }
+          ]
+        }
+      },
+      "groupedMetrics": null
+    }
+  },
+  {
+    "date": "2026-04-30",
+    "data": {
+      "userProfileId": 143851902,
+      "statisticsStartDate": "2026-04-30",
+      "statisticsEndDate": "2026-04-30",
+      "allMetrics": {
+        "metricsMap": {
+          "WELLNESS_RESTING_HEART_RATE": [
+            {
+              "value": 67.0,
+              "calendarDate": "2026-04-30"
+            }
+          ]
+        }
+      },
+      "groupedMetrics": null
+    }
+  },
+  {
+    "date": "2026-05-01",
+    "data": {
+      "userProfileId": 143851902,
+      "statisticsStartDate": "2026-05-01",
+      "statisticsEndDate": "2026-05-01",
+      "allMetrics": {
+        "metricsMap": {
+          "WELLNESS_RESTING_HEART_RATE": [
+            {
+              "value": 68.0,
+              "calendarDate": "2026-05-01"
+            }
+          ]
+        }
+      },
+      "groupedMetrics": null
+    }
+  },
+  {
+    "date": "2026-05-02",
+    "data": {
+      "userProfileId": 143851902,
+      "statisticsStartDate": "2026-05-02",
+      "statisticsEndDate": "2026-05-02",
+      "allMetrics": {
+        "metricsMap": {
+          "WELLNESS_RESTING_HEART_RATE": [
+            {
+              "value": 71.0,
+              "calendarDate": "2026-05-02"
+            }
+          ]
+        }
+      },
+      "groupedMetrics": null
+    }
+  },
+  {
+    "date": "2026-05-03",
+    "data": {
+      "userProfileId": 143851902,
+      "statisticsStartDate": "2026-05-03",
+      "statisticsEndDate": "2026-05-03",
+      "allMetrics": {
+        "metricsMap": {
+          "WELLNESS_RESTING_HEART_RATE": [
+            {
+              "value": 72.0,
+              "calendarDate": "2026-05-03"
+            }
+          ]
+        }
+      },
+      "groupedMetrics": null
+    }
+  },
+  {
+    "date": "2026-05-04",
+    "data": {
+      "userProfileId": 143851902,
+      "statisticsStartDate": "2026-05-04",
+      "statisticsEndDate": "2026-05-04",
+      "allMetrics": {
+        "metricsMap": {
+          "WELLNESS_RESTING_HEART_RATE": [
+            {
+              "value": 71.0,
+              "calendarDate": "2026-05-04"
+            }
+          ]
+        }
+      },
+      "groupedMetrics": null
+    }
+  },
+  {
+    "date": "2026-05-05",
+    "data": {
+      "userProfileId": 143851902,
+      "statisticsStartDate": "2026-05-05",
+      "statisticsEndDate": "2026-05-05",
+      "allMetrics": {
+        "metricsMap": {
+          "WELLNESS_RESTING_HEART_RATE": [
+            {
+              "value": 63.0,
+              "calendarDate": "2026-05-05"
+            }
+          ]
+        }
+      },
+      "groupedMetrics": null
+    }
+  },
+  {
+    "date": "2026-05-06",
+    "data": {
+      "userProfileId": 143851902,
+      "statisticsStartDate": "2026-05-06",
+      "statisticsEndDate": "2026-05-06",
+      "allMetrics": {
+        "metricsMap": {
+          "WELLNESS_RESTING_HEART_RATE": [
+            {
+              "value": 52.0,
+              "calendarDate": "2026-05-06"
+            }
+          ]
+        }
+      },
+      "groupedMetrics": null
+    }
+  },
+  {
+    "date": "2026-05-07",
+    "data": {
+      "userProfileId": 143851902,
+      "statisticsStartDate": "2026-05-07",
+      "statisticsEndDate": "2026-05-07",
+      "allMetrics": {
+        "metricsMap": {
+          "WELLNESS_RESTING_HEART_RATE": [
+            {
+              "value": 48.0,
+              "calendarDate": "2026-05-07"
+            }
+          ]
+        }
+      },
+      "groupedMetrics": null
+    }
+  },
+  {
+    "date": "2026-05-08",
+    "data": {
+      "userProfileId": 143851902,
+      "statisticsStartDate": "2026-05-08",
+      "statisticsEndDate": "2026-05-08",
+      "allMetrics": {
+        "metricsMap": {
+          "WELLNESS_RESTING_HEART_RATE": [
+            {
+              "value": 63.0,
+              "calendarDate": "2026-05-08"
+            }
+          ]
+        }
+      },
+      "groupedMetrics": null
+    }
+  },
+  {
+    "date": "2026-05-09",
+    "data": {
+      "userProfileId": 143851902,
+      "statisticsStartDate": "2026-05-09",
+      "statisticsEndDate": "2026-05-09",
+      "allMetrics": {
+        "metricsMap": {
+          "WELLNESS_RESTING_HEART_RATE": [
+            {
+              "value": 66.0,
+              "calendarDate": "2026-05-09"
+            }
+          ]
+        }
+      },
+      "groupedMetrics": null
+    }
+  },
+  {
+    "date": "2026-05-10",
+    "data": {
+      "userProfileId": 143851902,
+      "statisticsStartDate": "2026-05-10",
+      "statisticsEndDate": "2026-05-10",
+      "allMetrics": {
+        "metricsMap": {
+          "WELLNESS_RESTING_HEART_RATE": [
+            {
+              "value": 64.0,
+              "calendarDate": "2026-05-10"
+            }
+          ]
+        }
+      },
+      "groupedMetrics": null
+    }
+  },
+  {
+    "date": "2026-05-11",
+    "data": {
+      "userProfileId": 143851902,
+      "statisticsStartDate": "2026-05-11",
+      "statisticsEndDate": "2026-05-11",
+      "allMetrics": {
+        "metricsMap": {
+          "WELLNESS_RESTING_HEART_RATE": [
+            {
+              "value": 63.0,
+              "calendarDate": "2026-05-11"
+            }
+          ]
+        }
+      },
+      "groupedMetrics": null
+    }
+  }
+]
