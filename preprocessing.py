@@ -1,6 +1,12 @@
 """
+script: preprocessing.py 
+
+Description: This script takes the raw JSON files fetched from Garmin APIs,
+             parses out relevant wellness metrics and builds three cleaned datasets for analysis. 
+             Each dataset is composed of its own unique feature combination and focuses on a different aspect of health:
+
 Dataset A: Cardiovascular
-    RHR, HRV, SpO2, respiration rate, avg HR during activities
+    RHR, HRV, SpO2, respiration rate, avg. HR during activities
 
 Dataset B: Stress & Recovery 
     RHR, HRV, stress score, body battery, steps, sleep duration
